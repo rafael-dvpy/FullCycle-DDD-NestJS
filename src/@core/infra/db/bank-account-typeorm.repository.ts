@@ -34,7 +34,6 @@ export class BankAccountTypeOrmRepository implements BankAccountRepository {
           account.id,
         ),
     );
-    console.log(result);
     return result;
   }
 

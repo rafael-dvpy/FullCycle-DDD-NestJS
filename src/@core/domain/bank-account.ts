@@ -23,7 +23,6 @@ export class BankAccount {
   get balance(): number {
     return this.props.balance;
   }
-
   private set balance(value: number) {
     this.props.balance = value;
   }
